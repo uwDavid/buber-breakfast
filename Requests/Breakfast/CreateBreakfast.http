@@ -1,0 +1,18 @@
+POST http://localhost:5171/breakfasts
+Content-Type: application/json
+
+{
+    "name": "Test1",
+    "description": "Vegan everything! Join us for a smoothie",
+    "startDateTime": "2022-04-08T08:00:00",
+    "endDateTime": "2022-04-08T11:00:00",
+    "Savory": [
+        "Oatmeal",
+        "Avocado Toast",
+        "Omelette",
+        "Salad"
+    ], 
+    "Sweet": [
+        "Cookie"
+    ]
+}
